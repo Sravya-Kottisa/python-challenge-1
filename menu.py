@@ -194,13 +194,3 @@ for item in order:
 total_price = sum(item["Price"] * item["Quantity"] for item in order)
 # and print the prices.
 print("\nTotal Price: $%.2f" % total_price)
-
- 
-1
-
-
-
-
-
-
-
