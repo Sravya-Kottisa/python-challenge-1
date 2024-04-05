@@ -155,7 +155,7 @@ while place_order:
         # Ask the customer if they would like to order anything else
         keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o ")
          # 5. Check the customer's input
-        if keep_ordering == 'n':
+        if keep_ordering.lower() == 'n':
             # If user selected N, Exit the keep ordering question loop
             # Since the customer decided to stop ordering, thank them for
             # their order
@@ -163,7 +163,7 @@ while place_order:
              print("Thank you for your order.")
              break
         # Keep ordering
-        elif keep_ordering == 'y':
+        elif keep_ordering.lower() == 'y':
               break
         else:
         #If they select an in correct option 
